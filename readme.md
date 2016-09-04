@@ -4,7 +4,7 @@ An example project that shows how can Spring boot application be packed to debia
 
 ### Launch using Vagrant
 
-In the project root execute the following commands:
+At the project root execute the following commands:
 
 ``` shell
 mvn clean package
@@ -14,7 +14,7 @@ vagrant up
 Wait for Vagrant to install required dependencies along with application package and launch it.
 Open http://65.0.0.20:8080 in your browser and check that application is launched.
 
-### Manual installation
+### Launch manually
 
 Package requires Java 8, thus it is necessary to install it manually.
 
