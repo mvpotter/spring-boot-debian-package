@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+if [ \( "$1" = "upgrade" -o "$1" = "remove" \) -a -e /var/run/${build.finalName}/${build.finalName}.pid ]; then
+  service ${build.finalName} stop
+fi
+
+exit 0

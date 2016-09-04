@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+update-rc.d -f ${build.finalName} remove
+
+if [ -e /var/log/${build.finalName}.log ]; then
+  rm /var/log/${build.finalName}.log
+fi
+
+exit 0

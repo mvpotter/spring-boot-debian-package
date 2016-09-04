@@ -1,0 +1,9 @@
+Package: ${build.finalName}
+Version: ${project.version}
+Section: misc
+Priority: optional
+Architecture: all
+Depends: oracle-java8-installer | openjdk-8-jre
+Maintainer: Michael Potter <supermegapotter@gmail.com>
+Description: Spring boot Hello World application
+Distribution: development
